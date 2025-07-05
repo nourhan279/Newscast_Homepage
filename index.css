@@ -212,16 +212,6 @@ html {
 
 /* up */
 
-.rest {
-  position: absolute;
-  transform: translate(0px, 2300px);
-  width: 1000px;
-  margin-left: 300px;
-  text-align: center;
-  height: 1000px;
-  border: 1px solid red;
-}
-
 /* last section */
 .last_img {
   width: 100vw;
@@ -295,27 +285,33 @@ html {
 #all {
   background-color: var(--main-color);
 }
-#life {
+#life,
+#football {
   background-color: rgb(165, 108, 189);
 }
 #recipes,
-#vogue {
+#vogue,
+#cricket {
   background-color: rgb(46, 204, 113);
 }
-#health {
+#health,
+#basketball {
   background-color: rgb(0, 136, 255);
 }
 #travel2 {
   background-color: rgb(165, 108, 189);
 }
 #travel,
-#music {
+#music,
+#badminton {
   background-color: rgb(153, 124, 0);
 }
-#gadgets {
+#gadgets,
+#boxing {
   background-color: rgb(73, 207, 232);
 }
-#world {
+#world,
+#esports {
   background-color: rgb(0, 136, 255);
 }
 #more {
@@ -537,7 +533,7 @@ html {
 .first_img {
   margin-left: 10px;
   float: right;
-  margin-top: 5px;
+
   z-index: 1;
 }
 #shadow {
@@ -646,6 +642,172 @@ html {
   margin-top: 5px;
   font-weight: bold;
   line-height: 1.3;
+}
+
+/* sec4 */
+#sports {
+  position: absolute;
+  transform: translate(135px, 2096px);
+  width: 870px;
+  height: 506px;
+}
+#sec_cricket {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  width: 393px;
+  height: 420px;
+}
+#sec_cricket img {
+  margin-bottom: 7px;
+}
+#cricket_tag {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  background-color: rgb(46, 204, 113);
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+#sec4_firstimage,
+#sec4_secondimage,
+#sec4_thirdimage,
+#sec4_fourthimage,
+#sec4_fifthimage {
+  position: absolute;
+  left: 423px;
+
+  width: 400px;
+  height: 70px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#sec4_firstimage {
+  top: 80px;
+}
+#sec4_secondimage {
+  top: 166px;
+}
+#sec4_thirdimage {
+  top: 252px;
+}
+#sec4_fourthimage {
+  top: 338px;
+}
+#sec4_fifthimage {
+  top: 427px;
+}
+
+#sec4_firstimage img,
+#sec4_secondimage img,
+#sec4_thirdimage img,
+#sec4_fourthimage img,
+#sec4_fifthimage img {
+  width: 90px;
+  height: 70px;
+}
+#sec4_firstimage p,
+#sec4_secondimage p,
+#sec4_thirdimage p,
+#sec4_fourthimage p,
+#sec4_fifthimage p {
+  font-size: 16px;
+  color: rgb(45, 45, 45);
+  margin-top: 7px;
+}
+
+#sec4_firstimage span,
+#sec4_secondimage span,
+#sec4_thirdimage span,
+#sec4_fourthimage span,
+#sec4_fifthimage span {
+  font-size: 10px;
+  color: gray;
+  margin-bottom: 10px;
+}
+#sp1 {
+  font-size: 12px;
+  color: rgba(57, 57, 57, 60%);
+  margin-bottom: 10px;
+}
+
+/* stay connected */
+#stay_connected {
+  position: absolute;
+  transform: translate(1035px, 2104px);
+  width: 270px;
+  height: 204px;
+}
+#stay_span {
+  font-size: 14px;
+  color: var(--main-color);
+  margin-bottom: 14px;
+  margin-top: 3px;
+  display: inline-block;
+  font-weight: bold;
+}
+.stay_cont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  row-gap: 11px;
+  margin-top: 25px;
+}
+
+.stay_connected_divs {
+  width: 130px;
+  height: 40px;
+
+  color: white;
+  display: flex;
+  align-items: center;
+
+  font-size: 8px;
+}
+.stay_connected_divs p {
+  margin-left: 13px;
+  font-size: 8px;
+}
+.stay_connected_divs img {
+  margin-left: 10px;
+}
+#stay_1 {
+  background-color: rgb(66, 129, 255);
+}
+#stay_2 {
+  background-color: rgb(194, 55, 133);
+}
+#stay_3 {
+  background-color: rgb(293, 80, 67);
+}
+#stay_4 {
+  background-color: rgb(66, 192, 245);
+}
+#stay_5 {
+  background-color: rgb(27, 123, 253);
+}
+#stay_6 {
+  background-color: rgb(247, 103, 157);
+}
+
+/* ad */
+#ad {
+  position: absolute;
+  transform: translate(1035px, 2333px);
+  width: 270px;
+  height: 290px;
+}
+#ad_lay {
+  color: white;
+  position: absolute;
+  font-size: 36px;
+  font-weight: bold;
+  top: 125px;
+  left: 110px;
 }
 
 /* before before last */
